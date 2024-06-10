@@ -1,0 +1,11 @@
+ALGORITHME AnneeBisex
+    FONCTION AnneeBisex (annee : ENTIER) : BOOLEEN
+    DEBUT
+        SI(annee % 4 == 0 OU (annee % 100 == 0 ET annee % 400 == 0) )
+            RETOURNER VRAI
+        SINON
+            RETOURNER FAUX
+        FINSI
+    FIN            
+
+
